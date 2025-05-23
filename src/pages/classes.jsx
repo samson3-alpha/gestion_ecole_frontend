@@ -40,7 +40,7 @@ function Classes(props) {
             </button>
             <div className="flex flex-wrap gap-4 justify-center mt-4">
             {classes.length > 0 ? (classes.map((classe) => {
-                return (<ClassItem key={classe.id} classe={classe} />)
+                return (<ClassItem key={classe._id} classe={classe} />)
             }))
                 : <p>Chargement...</p>
             }
